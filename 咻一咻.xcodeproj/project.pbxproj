@@ -51,6 +51,7 @@
 		DD0894FD1F17684100247830 /* 咻一咻UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "咻一咻UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0895011F17684100247830 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		DD0895031F17684100247830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD08950F1F17699B00247830 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 				DD0894E01F17684000247830 /* AppDelegate.m */,
 				DD0894E21F17684000247830 /* ViewController.h */,
 				DD0894E31F17684000247830 /* ViewController.m */,
+				DD08950F1F17699B00247830 /* Header.h */,
 				DD0894E51F17684000247830 /* Main.storyboard */,
 				DD0894E81F17684000247830 /* Assets.xcassets */,
 				DD0894EA1F17684000247830 /* LaunchScreen.storyboard */,
@@ -207,6 +209,7 @@
 				TargetAttributes = {
 					DD0894D81F17684000247830 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B7UQ7WHB5T;
 						ProvisioningStyle = Automatic;
 					};
 					DD0894F11F17684100247830 = {
@@ -424,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "咻一咻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +440,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "咻一咻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
